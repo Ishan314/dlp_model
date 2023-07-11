@@ -37,6 +37,7 @@ Figure 2. Document Clustering. A visual representation of how the documents are 
 
 Figure 3. Dynamic Topic Modeling. The frequency of climate change topics from ArXiv from 2008-2022.
 </p>
+
 ## An Example Summarization Result
 
 **Topic 6 Summarization (ice extent, Antarctic ice)**:
