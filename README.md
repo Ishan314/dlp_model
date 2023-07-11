@@ -20,5 +20,5 @@ Natural Language Processing is an effective tool for analyzing large volumes of 
 
 # Methodology
 
-<img width="775" alt="image" style="text-align:center; background-color:gray;" src="https://github.com/Ishan314/dlp_model/assets/53442182/aecb43a2-54b0-435d-9757-f3e1c531e436">
+<img width="820" alt="image" style="text-align:center;" src="https://github.com/Ishan314/dlp_model/assets/53442182/c7a71f2d-b520-46bd-8800-db5b02fd933e">
 
