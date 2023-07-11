@@ -18,5 +18,7 @@ Natural Language Processing is an effective tool for analyzing large volumes of 
 
 - This study aims to develop a weakly supervised machine learning algorithm that can quickly and accurately summarize the state of research in a field using Natural Language Processing and Dynamic Topic Modeling by analyzing a dataset of published abstracts pertaining to that topic.
 
-<img width="825" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/0f361b3f-759a-4c62-9528-e9c7992d72e8">
+# Methodology
+
+<img width="775" alt="image" style="text-align:center;" src="https://github.com/Ishan314/dlp_model/assets/53442182/aecb43a2-54b0-435d-9757-f3e1c531e436">
 
