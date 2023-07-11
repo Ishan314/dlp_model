@@ -20,21 +20,25 @@ Natural Language Processing is an effective tool for analyzing large volumes of 
 
 ## Methodology
 
-<img width="820" alt="image" style="text-align:center;" src="https://github.com/Ishan314/dlp_model/assets/53442182/c7a71f2d-b520-46bd-8800-db5b02fd933e">
+<img width="75%" alt="image" style="text-align:center;" src="https://github.com/Ishan314/dlp_model/assets/53442182/c7a71f2d-b520-46bd-8800-db5b02fd933e">
 
 ## Results
 
-<img width="785" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/46eb9185-bc4a-429b-bded-24c47065b4b8">[^1]
+<img width="75%" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/46eb9185-bc4a-429b-bded-24c47065b4b8">
 
-[^1]Figure 1. Keyword Frequency. The most common extracted keywords from the initial ArXiv dataset.
+Figure 1. Keyword Frequency. The most common extracted keywords from the initial ArXiv dataset.
 
-<img width="853" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/f8f8a142-d2d5-47f1-8b8d-f97161e67242">[^2]
 
-[^2]Figure 2. Document Clustering. A visual representation of how the documents are clustered. The faded grey dots signify documents treated as noise, and each color is attributed to a group of topics.
 
-<img width="820" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/37ee7987-557b-4323-a41a-8f6e75bbc672">[^3]
+<img width="75%" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/f8f8a142-d2d5-47f1-8b8d-f97161e67242">
 
-[^3]Figure 3. Dynamic Topic Modeling. The frequency of climate change topics from ArXiv from 2008-2022.
+<p width="75%">Figure 2. Document Clustering. A visual representation of how the documents are clustered.</p>
+
+
+
+<img width="75%" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/37ee7987-557b-4323-a41a-8f6e75bbc672">
+
+<p width="75%">Figure 3. Dynamic Topic Modeling. The frequency of climate change topics from ArXiv from 2008-2022.</p>
 
 ## An Example Summarization Result
 
@@ -59,7 +63,18 @@ The summarization provides insight into the subtopic, what is being covered curr
 
 - Currently, the abstractive summarization is performed on the top three most representative documents of the topic, and accounted for the entire cluster will provide more insight into the subtopic.
 
+## Acknowledgements
 
+I am truly grateful for Dr. Azucena Rodriguez, the IMSA SIR office, and Argonne National Laboratory for making this research possible. I also thank Dr. Prasanna Balaprakash for guiding me throughout the research project.  
+
+## References
+
+1. Dong, X., & de Melo, G. (2019). A robust self-learning framework for cross-lingual text classification. Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP), 6306–6310. https://doi.org/10.18653/v1/D19-1658
+2. Fabbri, A. R., Kryściński, W., McCann, B., Xiong, C., Socher, R., & Radev, D. (2021). Summeval: Re-evaluating summarization evaluation. arXiv. https://doi.org/10.48550/arXiv.2007.12626
+3. Grootendorst, M. P. (n.d.). Home. Retrieved April 6, 2023, from https://maartengr.github.io/BERTopic/index.html
+4. Hubbard, K. E., & Dunbar, S. D. (2017). Perceptions of scientific research literature and strategies for reading papers depend on academic career stage. PLoS ONE, 12(12), e0189753.
+https://doi.org/10.1371/journal.pone.0189753
+5. Mallick, T., Bergerson, J. D., Verner, D. R., Hutchison, J. K., Levy, L.-A., & Balaprakash, P. (2023). Analyzing the impact of climate change on critical infrastructure from the scientific literature: A weakly supervised NLP approach. arXiv. https://doi.org/10.48550/arXiv.2302.01887
 
 
 
