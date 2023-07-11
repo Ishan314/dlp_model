@@ -25,12 +25,15 @@ Natural Language Processing is an effective tool for analyzing large volumes of 
 ## Results
 
 <img width="785" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/46eb9185-bc4a-429b-bded-24c47065b4b8">
+
 Figure 1. Keyword Frequency. The most common extracted keywords from the initial ArXiv dataset.
 
 <img width="853" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/f8f8a142-d2d5-47f1-8b8d-f97161e67242">
+
 Figure 2. Document Clustering. A visual representation of how the documents are clustered. The faded grey dots signify documents treated as noise, and each color is attributed to a group of topics.
 
 <img width="820" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/37ee7987-557b-4323-a41a-8f6e75bbc672">
+
 Figure 3. Dynamic Topic Modeling. The frequency of climate change topics from ArXiv from 2008-2022.
 
 ## An Example Summarization Result
@@ -46,9 +49,9 @@ The summarization provides insight into the subtopic, what is being covered curr
 
 - However, most of the parameters used in the algorithm are specific to the topic at hand, Climate Change, and depend on variable aspects such as the size of the inputted abstract dataset and the number of distinct subtopics in the field.
 
-- - To fix this, one could find relationships between the values of the parameters as well as variables such as dataset length and formulate equations relating the two quantities.
+  - To fix this, one could find relationships between the values of the parameters as well as variables such as dataset length and formulate equations relating the two quantities.
 
-- - These equations could be used in the program to make it adaptive, allowing it to effectively parametrize itself and run effectively on datasets of any size and topic, be it broad or narrow.
+  - These equations could be used in the program to make it adaptive, allowing it to effectively parametrize itself and run effectively on datasets of any size and topic, be it broad or narrow.
 
 - In addition, various embedding techniques used to reduce inconsistencies in the results could significantly improve the topic modeling and summarization of the model but could also drastically impact its adaptability.
 
