@@ -26,15 +26,20 @@ Natural Language Processing is an effective tool for analyzing large volumes of 
 
 <p align="center">
 <img width="785" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/46eb9185-bc4a-429b-bded-24c47065b4b8">
-
+</p>
+<p align="center">
 Figure 1. Keyword Frequency. The most common extracted keywords from the initial ArXiv dataset.
-
+</p>
+<p align="center">
 <img width="853" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/f8f8a142-d2d5-47f1-8b8d-f97161e67242">
-
+</p>
+<p align="center">
 Figure 2. Document Clustering. A visual representation of how the documents are clustered. The faded grey dots signify documents treated as noise, and each color is attributed to a group of topics.
-
+</p>
+<p align="center">
 <img width="820" alt="image" src="https://github.com/Ishan314/dlp_model/assets/53442182/37ee7987-557b-4323-a41a-8f6e75bbc672">
-
+</p>
+<p align="center">
 Figure 3. Dynamic Topic Modeling. The frequency of climate change topics from ArXiv from 2008-2022.
 </p>
 
