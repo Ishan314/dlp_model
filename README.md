@@ -1,4 +1,4 @@
-![image](https://github.com/Ishan314/dlp_model/assets/53442182/57b9521f-7f73-4afb-bb26-12d1465d24af)# Using NLP to Interpret Large Volumes of Scientific Text
+# Using NLP to Interpret Large Volumes of Scientific Text
 
 A weakly-supervised Machine Learning algorithm that can quickly and accurately summarize the state of the research in a field using Natural Language Processing and Dynamic Topic Modeling by analyzing a dataset of published abstracts pertaining to that topic.
 
