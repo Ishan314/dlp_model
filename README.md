@@ -1,4 +1,4 @@
-# Using NLP to Interpret Large Volumes of Scientific Text
+![image](https://github.com/Ishan314/dlp_model/assets/53442182/57b9521f-7f73-4afb-bb26-12d1465d24af)# Using NLP to Interpret Large Volumes of Scientific Text
 
 A weakly-supervised Machine Learning algorithm that can quickly and accurately summarize the state of the research in a field using Natural Language Processing and Dynamic Topic Modeling by analyzing a dataset of published abstracts pertaining to that topic.
 
@@ -21,6 +21,15 @@ Natural Language Processing is an effective tool for analyzing large volumes of 
 ## Methodology
 
 <img width="75%" alt="image" style="text-align:center;" src="https://github.com/Ishan314/dlp_model/assets/53442182/c7a71f2d-b520-46bd-8800-db5b02fd933e">
+
+## Topic Modeling
+
+**Embeddings – SentenceTransformers**: The first step in BERTopic is converting the documents into numerical representations, which can be achieved using Sentence Embedding model. From the SentenceTransformers library, I used “all-mpnet-base-v2,” a sentence embedding model trained on over 1 billion training pairs with a performance score of 69.57. I also embedded with other models and found “all-mpnet-base-v2” the most effective.
+**Dimensionality Reduction – UMAP**: UMAP (Uniform Manifold Approximation and Projection for Dimension Reduction) is used BERTopic since it can capture both the local and global high-dimensional space in lower dimensions.
+**Clustering – HDBSCAN**: Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN) is the clustering model I used to categorize the dataset into groups of documents with similar topics. Using the leaf clustering method, I extracted clusters that avoided the general overall topics seen in the dataset. A visual representation of the clustering is seen in Figure 2.
+**Tokenizer – CountVectorizer**: Although the clustering is complete, the next step is creating the topic representations, which help convey the topics of each clusters and generate the sub-topics. To do this, CountVectorizer preprocesses the text and vectorizes it (NLP models deal with numbers instead of text, so numerical representations are common).
+**Weighting Scheme – c-TF-IDF+BM25**: In BERTopic’s weighting scheme, the TF-IDF metric is altered to account for what makes documents in one cluster different from another. To account for clusters, each cluster is converted to the single document before TF-IDF is calculated and normalized. 
+
 
 ## Results
 
